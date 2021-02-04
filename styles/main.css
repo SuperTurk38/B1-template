@@ -133,6 +133,10 @@ article h2.rides{
 article h2.open-forever{
   background-image: url('../images/open-james-lee.jpg');
 }
+article h2 {
+  text-shadow: 0 0 0 #FCFCFC, -1px -1px 0 #FCFCFC, 1px -1px 0 #FCFCFC, -1px 1px 0 #FCFCFC, 1px 1px 0 #FCFCFC;
+
+}
 
 .emphasize {
 
