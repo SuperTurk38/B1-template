@@ -103,6 +103,12 @@ article{
   padding-left: 10px;
   margin: 1em 1em 1em 0;
 }
+
+.articles {
+
+  display: flex;
+
+}
 article:last-of-type{
   margin-right: 0;
 }
