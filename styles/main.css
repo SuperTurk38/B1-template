@@ -23,12 +23,6 @@ body, html{
   margin: 0 auto;
 }
 
-.row {
-
-  display: flex;
-
-}
-
 header{
   background: url('../images/park01.jpg');
   background-size: cover;
@@ -96,6 +90,11 @@ table th.slim{
 
 table tfoot{
   font-weight: bold;
+}
+.row {
+
+  display: flex;
+
 }
 
 article{
@@ -180,6 +179,12 @@ button{
   border: 2px solid #FCFCFC;
   color: #000000;
   font-weight: bold;
+}
+
+button:hover {
+
+  cursor: pointer;
+
 }
 
 .payment-option{
