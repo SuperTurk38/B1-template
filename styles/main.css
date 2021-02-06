@@ -74,14 +74,54 @@ table{
   margin-top: 1em;
   width: 100%;
   border-collapse: collapse;
+
+}
+
+article  {
+
+  border-left: none;
+
 }
 
 table th{
   text-align: start;
 }
 
-table thead, table tbody{
-  border-bottom: 1px solid #303030;
+.table-line-top {
+
+  border-top: 1px solid #303030;
+
+}
+
+table thead, table tbody  {
+
+  /*border-top: 1px solid #303030;*/
+
+}
+
+.table {
+
+  border-left: none;
+
+}
+.table-text{
+
+  border-left: 5px solid #27AE60;
+  margin: 0px 0px 22px 0px;
+  padding: 0;
+  width: 210px;
+}
+
+.table-total {
+
+  border-top: 1px solid black;
+  font-weight: bold;
+
+}
+
+.table-total2 {
+
+  font-weight: bold;
 }
 
 table th.slim{
@@ -184,6 +224,12 @@ button{
 button:hover {
 
   cursor: pointer;
+
+}
+.cart-a {
+
+  text-decoration: none;
+  color: black;
 
 }
 

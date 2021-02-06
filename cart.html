@@ -18,15 +18,51 @@
   </header>
   <main>
     <div class="wrapper">
-      <article>
-        <h2>Winkelwagentje</h2>
+      <article class="table">
+        <h2 class="table-text">Winkelwagentje</h2>
         <div>
           <span>Dit zijn alle producten die u gaat bestellen. Controleer een laatste keer of alles klopt en ga daarna verder met de grote groene knop.</span>
-          <!-- 
-            Winkelwagen hier
-          -->
-          
-          <button>Dit is correct, verder naar betaling</button>
+          <table>
+            <tr>
+              <th>Product</th>
+              <th>Prijs (enkel)</th>
+              <th>Aantal</th>
+              <th>Prijs (Totaal)</th>
+            </tr>
+            <tr class="table-line-top">
+              <td>Entreekaartje Kind t/m 3 jaar</td>
+              <td>&euro; 0</td>
+              <td>1</td>
+              <td>&euro; 0</td>
+            </tr>
+            <tr>
+              <td>Entreekaartje Regulier</td>
+              <td>&euro; 24,95</td>
+              <td>2</td>
+              <td>&euro; 49,90</td>
+            </tr>
+            <tr>
+              <td>Entreekaartje Senior</td>
+              <td>&euro; 14,95</td>
+              <td>1</td>
+              <td>&euro; 14,95</td>
+            </tr>
+            <tr class="table-total">
+              <td></td>
+              <td></td>
+              <td>Totaalsom</td>
+              <td>&euro; 64,85</td>
+            </tr>
+            <tr class="table-total2">
+              <td></td>
+              <td></td>
+              <td>(inc. btw)</td>
+              <td></td>
+            </tr>
+          </table>
+
+
+          <button><a class="cart-a" href="payment.html">Dit is correct, verder naar betaling</a></button>
         </div>
       </article>
     </div>
