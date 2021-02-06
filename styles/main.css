@@ -237,7 +237,13 @@ button:hover {
   height: 64px;
 }
 
-.sidy-by-side{
+.sidy-by-side {
+
+  display: flex;
+  vertical-align: center;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+
 }
 
 .description{
