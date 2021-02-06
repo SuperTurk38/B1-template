@@ -246,8 +246,22 @@ button:hover {
 
 }
 
+.product-info {
+  display: flex;
+}
+
+.product-text span {
+  font-weight: bold;
+}
+
+.product-text p {
+
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 .description{
-  flex: 1;
+  flex: 1px;
 }
 
 footer{
